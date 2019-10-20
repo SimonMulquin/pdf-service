@@ -1,0 +1,9 @@
+{
+  "name": "pdf-service",
+  "version": "1.0.0",
+  "description": "pdf tools over rest api",
+  "main": "index.js",
+  "repository": "https://github.com/SimonMulquin/pdf-service.git",
+  "author": "SimonMulquin <simon.mulquin@gmail.com>",
+  "license": "MIT"
+}
