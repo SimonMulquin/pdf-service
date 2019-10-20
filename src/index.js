@@ -16,7 +16,6 @@ const service = async () => {
         console.log(err)
     }
 
-    // run
     const server = express();
 
     server.get(config.service.baseRoute + '/', (req, res) => {
@@ -59,7 +58,8 @@ const service = async () => {
     })
 
     server.post(config.service.baseRoute + '/v1/', genPDF)
-
+    
+    // run
     server.listen(config.service.port)
 }
 
